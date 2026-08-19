@@ -37,10 +37,11 @@
     Telefone ......... (63) 99236-1046 (ativo de chamada; os telefones
                        impressos no certificado NÃO foram usados)
   --------------------------------------------------------------------
-  PENDENTE — trocar antes de publicar (busque por "SEUDOMINIO" e "XXXX")
+  PENDENTE — trocar antes de publicar (busque por "SEUDOMINIO")
     SEUDOMINIO.com.br .............. domínio próprio
-    AW-XXXXXXXXX / XXXXXXXXXXX ..... ID e rótulo de conversão do Google Ads
   FEITO
+    Google Ads ..................... tag AW-18224978784 + rótulos de
+                                     conversão Telefone/WhatsApp ativos
     politica-de-privacidade.html ... página escrita (18/08/2026)
     assets/og.png .................. imagem 1200x630 gerada
   NÃO publicar depoimento, nota ou número que não seja verdadeiro.
@@ -1427,30 +1428,36 @@ footer a{color:#f2ebdd}
       + '\nTelefone: '+ f.fone.value.trim()
       + '\nBairro: '  + f.bairro.value.trim()
       + '\nServiço: ' + f.servico.value;
-    conversao('formulario');
+    conversao('whatsapp');
     window.open('https://wa.me/5563992361046?text=' + encodeURIComponent(msg), '_blank', 'noopener');
   });
 
-  /* ---------- 4. Conversões ---------- */
-  function conversao(origem){
-    if(typeof gtag !== 'function') return;
-    gtag('event','conversion',{'send_to':'AW-XXXXXXXXX/XXXXXXXXXXX','value':1.0,'currency':'BRL'});
-    gtag('event','contato',{'metodo':origem});
+  /* ---------- 4. Conversões Google Ads ----------
+     Conta 946-204-5162. Dois rótulos: Clique Telefone e Clique WhatsApp.
+     Delegação captura todos os links tel: e wa.me, atuais e futuros. */
+  var CONV = {
+    telefone:'AW-18224978784/ijpnCMSGiOQcEOC2rPJD',
+    whatsapp:'AW-18224978784/5_txCMeGiOQcEOC2rPJD'
+  };
+  function conversao(tipo){
+    if(typeof gtag !== 'function' || !CONV[tipo]) return;
+    gtag('event','conversion',{'send_to':CONV[tipo],'value':1.0,'currency':'BRL'});
+    gtag('event','contato',{'metodo':tipo});
   }
   document.addEventListener('click', function(e){
-    var a = e.target.closest('[data-conv]');
-    if(a) conversao(a.dataset.conv);
+    var a = e.target.closest('a[href^="tel:"],a[href*="wa.me"]');
+    if(a) conversao(a.href.indexOf('tel:') === 0 ? 'telefone' : 'whatsapp');
   }, {passive:true});
 })();
 </script>
 
-<!-- Google Ads — trocar AW-XXXXXXXXX e o rótulo de conversão antes de publicar -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+<!-- Google Ads — tag base (conta 946-204-5162) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18224978784"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());
-gtag('config','AW-XXXXXXXXX');
+gtag('config','AW-18224978784');
 </script>
 </body>
 </html>
