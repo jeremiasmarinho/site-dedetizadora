@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 320 690" width="320" height="690"><title>Mascote de controle de pragas</title><g stroke="#141210" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <!-- antenas -->
+  <path d="M142 74 C126 44 112 26 92 12" stroke-width="7"/>
+  <path d="M198 70 C208 40 214 24 226 10" stroke-width="7"/>
+  <!-- pernas -->
+  <path d="M112 404 C100 486 92 546 82 606" stroke-width="9"/>
+  <path d="M146 414 C162 496 172 552 180 610" stroke-width="9"/>
+  <!-- botas -->
+  <path d="M52 660 C52 634 62 616 82 612 C100 608 110 622 112 640 L114 662 Z" fill="#141210" stroke-width="7"/>
+  <path d="M212 662 L214 640 C216 622 206 608 188 612 C168 616 158 634 158 660 Z" fill="#141210" stroke-width="7"/>
+  <path d="M46 662 H122" stroke-width="11"/>
+  <path d="M150 662 H220" stroke-width="11"/>
+  <!-- braços -->
+  <path d="M148 230 C116 240 92 254 84 278" stroke-width="8"/>
+  <path d="M178 218 C202 202 220 190 232 180" stroke-width="8"/>
+  <!-- abdome -->
+  <ellipse cx="118" cy="340" rx="62" ry="88" transform="rotate(-14 118 340)" fill="#D62518" stroke-width="9"/>
+  <!-- tórax -->
+  <ellipse cx="156" cy="222" rx="32" ry="46" transform="rotate(-10 156 222)" fill="#D62518" stroke-width="9"/>
+  <!-- pescoço -->
+  <path d="M162 168 C158 182 156 190 154 200" stroke-width="10"/>
+  <!-- cabeça -->
+  <ellipse cx="172" cy="128" rx="46" ry="38" transform="rotate(-14 172 128)" fill="#D62518" stroke-width="9"/>
+  <!-- capacete -->
+  <path d="M126 96 C120 56 148 26 184 30 C214 33 232 58 228 92 Z" fill="#FFC800" stroke-width="9"/>
+  <path d="M110 96 C132 84 216 78 244 88 C246 100 236 108 222 109 C196 111 140 114 118 110 C108 108 106 101 110 96Z" fill="#FFC800" stroke-width="9"/>
+  <path d="M176 32 C170 52 168 74 170 94" stroke-width="6" opacity=".55"/>
+  <!-- luva na cintura -->
+  <g transform="rotate(16 74 292) translate(-8,2)">
+    <path d="M70 286 C70 272 82 264 96 266 C112 268 120 280 118 294 C116 308 102 314 88 310 C76 306 70 298 70 286Z" fill="#FFC800" stroke-width="8"/>
+    <path d="M72 276 C62 272 56 276 56 284 C56 292 64 296 72 294" fill="#FFC800" stroke-width="8"/>
+    <path d="M96 268 L96 308" stroke-width="4" opacity=".5"/>
+  </g>
+  <!-- luva acenando -->
+  <g transform="rotate(-14 244 168)">
+    <path d="M220 192 C212 170 218 150 234 144 C252 137 270 146 274 164 C278 182 268 196 252 200 Z" fill="#FFC800" stroke-width="8"/>
+    <path d="M231 146 L224 118" stroke-width="9" stroke-linecap="round"/>
+    <path d="M247 140 L247 110" stroke-width="9" stroke-linecap="round"/>
+    <path d="M263 145 L272 116" stroke-width="9" stroke-linecap="round"/>
+    <path d="M276 158 L296 142" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <circle cx="156" cy="124" r="6.5" fill="#141210" stroke="none"/>
+</g></svg>

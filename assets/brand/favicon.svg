@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Dedetizadora Araguaína</title>
+  <rect width="512" height="512" rx="112" fill="#ffc800"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#141210" stroke-width="26"/>
+  <g fill="#141210" stroke="#141210" stroke-linecap="round" stroke-width="16">
+    <path d="M195 198c0-44 27-75 61-75s61 31 61 75c0 25-13 43-31 53 24 16 39 44 39 78 0 55-29 91-69 91s-69-36-69-91c0-34 15-62 39-78-18-10-31-28-31-53Z"/>
+    <path d="m206 189-48-36m148 36 48-36M200 258l-57-17m226 17 57-17M195 322l-59 8m240-8 59 8M205 382l-48 38m198-38 48 38" fill="none"/>
+  </g>
+  <path d="M256 178v70" stroke="#ffc800" stroke-width="12" stroke-linecap="round"/>
+</svg>

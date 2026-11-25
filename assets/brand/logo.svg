@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 680" role="img" aria-labelledby="title">
+  <title id="title">Dedetizadora Araguaína</title>
+  <rect x="68" y="46" width="1464" height="588" rx="112" fill="#141210"/>
+  <rect x="84" y="62" width="1432" height="556" rx="96" fill="#ffc800" stroke="#141210" stroke-width="12"/>
+  <path d="M96 154h1408v86H96z" fill="#141210"/>
+  <text x="800" y="214" fill="#ffc800" font-family="Arial,sans-serif" font-size="46" font-weight="700" text-anchor="middle" letter-spacing="3">ARAGUAÍNA – TO · MAIS DE 20 ANOS</text>
+  <text x="800" y="404" fill="#141210" font-family="Impact,'Arial Narrow',sans-serif" font-size="130" font-weight="900" text-anchor="middle" letter-spacing="2">DEDETIZADORA</text>
+  <text x="800" y="526" fill="#d62518" font-family="Impact,'Arial Narrow',sans-serif" font-size="132" font-weight="900" text-anchor="middle" letter-spacing="5">ARAGUAÍNA</text>
+  <path d="M96 554h1408v48H96z" fill="#d62518"/>
+  <text x="800" y="590" fill="#fff7e4" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" letter-spacing="2">CONTROLE DE PRAGAS · (63) 99236-1046</text>
+</svg>

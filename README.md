@@ -1,12 +1,12 @@
-# Dedetizadora Lustosa — Landing Page
+# Dedetizadora Araguaína — Landing Page
 
-Landing page estática (arquivo único, autocontido) para a Dedetizadora Lustosa, Araguaína – TO.
+Landing page estática (arquivo único, autocontido) para a Dedetizadora Araguaína, Araguaína – TO.
 
 ## Estrutura
 
 - `index.html` — a landing page completa (HTML/CSS/JS inline)
-- `assets/brand/` — logos, mascote e ícone (SVG) — **pendente: baixar do chat e colocar aqui**
-- `assets/docs/` — manual da marca (PDF) — **pendente**
+- `assets/brand/` — logo, ícone e mascote (SVG)
+- `assets/docs/` — materiais da marca
 
 ## Desenvolvimento local
 

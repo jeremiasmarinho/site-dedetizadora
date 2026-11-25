@@ -1,12 +1,12 @@
-# Design System Master — Dedetizadora Lustosa
+# Design System Master — Dedetizadora Araguaína
 
 > **LÓGICA:** ao construir uma página específica, verifique antes
-> `design-system/dedetizadora-lustosa/pages/[pagina].md`. Se existir, ele
+> `design-system/dedetizadora-araguaina/pages/[pagina].md`. Se existir, ele
 > sobrepõe este Master. Se não, siga estritamente as regras abaixo.
 
 ---
 
-**Projeto:** Dedetizadora Lustosa (Joabson Alves França-ME) — Araguaína/TO
+**Projeto:** Dedetizadora Araguaína (Joabson Alves França-ME) — Araguaína/TO
 **Atualizado:** 2026-08-18
 **Direção visual:** "Placa de fachada do cerrado" — identidade extraída do
 cartão real da empresa. Traço grosso, cor chapada, sombra dura, tom local e
@@ -80,6 +80,6 @@ ou papel; vermelho em texto/botão é sempre `--vermelho-tinta` (AA), nunca
 
 - Paletas corporativas genéricas (navy/azul SaaS) — descaracteriza a marca
 - Sombras difusas/glassmorphism — a linguagem é sombra dura de placa
-- Esconder telefone/WhatsApp; omitir licenças (sanitária 335/2026,
-  ambiental 109/2023, RT CRMV-TO 00395)
+- Esconder telefone/WhatsApp; omitir licença ambiental 109/2023 ou RT
+  CRMV-TO 00395
 - Publicar depoimento, nota ou número que não seja verdadeiro
